@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: consumer-rest
+server:
+  port: 8980
+eureka:
+  instance: 
+    hostname: localhost
+  client:
+    serviceUrl: 
+      defaultZone: http://localhost:6660/eureka

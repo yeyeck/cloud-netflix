@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: service-hi
+server:
+  port: 8880
+eureka:
+  instance: 
+    hostname: localhost
+  client:
+    serviceUrl: 
+      defaultZone: http://localhost:6660/eureka
+
+

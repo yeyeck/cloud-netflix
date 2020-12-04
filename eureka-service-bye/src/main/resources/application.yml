@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-bye
+server:
+  port: 8890
+eureka:
+  instance: 
+    hostname: localhost
+  client:
+    serviceUrl: 
+      defaultZone: http://localhost:6660/eureka

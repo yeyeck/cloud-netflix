@@ -1,0 +1,13 @@
+server:
+  port: 6660
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    regiesterWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+Spring:
+  application:
+    name: eureka-server

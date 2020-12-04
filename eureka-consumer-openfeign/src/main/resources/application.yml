@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: consumer-openfeigh
+server:
+  port: 8981
+eureka:
+  instance: 
+    hostname: localhost
+  client:
+    serviceUrl: 
+      defaultZone: http://localhost:6660/eureka
+feign:
+  hystrix:
+    enabled: true
